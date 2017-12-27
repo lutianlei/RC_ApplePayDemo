@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		31FA81701FF38F31004EABF8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 31FA816F1FF38F31004EABF8 /* AppDelegate.m */; };
+		31FA81731FF38F31004EABF8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 31FA81721FF38F31004EABF8 /* ViewController.m */; };
+		31FA81761FF38F31004EABF8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31FA81741FF38F31004EABF8 /* Main.storyboard */; };
+		31FA81781FF38F31004EABF8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 31FA81771FF38F31004EABF8 /* Assets.xcassets */; };
+		31FA817B1FF38F31004EABF8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31FA81791FF38F31004EABF8 /* LaunchScreen.storyboard */; };
+		31FA817E1FF38F31004EABF8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 31FA817D1FF38F31004EABF8 /* main.m */; };
+		31FA81881FF38F31004EABF8 /* RayApplePayDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 31FA81871FF38F31004EABF8 /* RayApplePayDemoTests.m */; };
+		31FA81931FF38F31004EABF8 /* RayApplePayDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 31FA81921FF38F31004EABF8 /* RayApplePayDemoUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		31FA81841FF38F31004EABF8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 31FA81631FF38F31004EABF8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 31FA816A1FF38F31004EABF8;
+			remoteInfo = RayApplePayDemo;
+		};
+		31FA818F1FF38F31004EABF8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 31FA81631FF38F31004EABF8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 31FA816A1FF38F31004EABF8;
+			remoteInfo = RayApplePayDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		31FA816B1FF38F31004EABF8 /* RayApplePayDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RayApplePayDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		31FA816E1FF38F31004EABF8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		31FA816F1FF38F31004EABF8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		31FA81711FF38F31004EABF8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		31FA81721FF38F31004EABF8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		31FA81751FF38F31004EABF8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		31FA81771FF38F31004EABF8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		31FA817A1FF38F31004EABF8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		31FA817C1FF38F31004EABF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		31FA817D1FF38F31004EABF8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		31FA81831FF38F31004EABF8 /* RayApplePayDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RayApplePayDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		31FA81871FF38F31004EABF8 /* RayApplePayDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RayApplePayDemoTests.m; sourceTree = "<group>"; };
+		31FA81891FF38F31004EABF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		31FA818E1FF38F31004EABF8 /* RayApplePayDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RayApplePayDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		31FA81921FF38F31004EABF8 /* RayApplePayDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RayApplePayDemoUITests.m; sourceTree = "<group>"; };
+		31FA81941FF38F31004EABF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		31FA81681FF38F31004EABF8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31FA81801FF38F31004EABF8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31FA818B1FF38F31004EABF8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		31FA81621FF38F31004EABF8 = {
+			isa = PBXGroup;
+			children = (
+				31FA816D1FF38F31004EABF8 /* RayApplePayDemo */,
+				31FA81861FF38F31004EABF8 /* RayApplePayDemoTests */,
+				31FA81911FF38F31004EABF8 /* RayApplePayDemoUITests */,
+				31FA816C1FF38F31004EABF8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		31FA816C1FF38F31004EABF8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				31FA816B1FF38F31004EABF8 /* RayApplePayDemo.app */,
+				31FA81831FF38F31004EABF8 /* RayApplePayDemoTests.xctest */,
+				31FA818E1FF38F31004EABF8 /* RayApplePayDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		31FA816D1FF38F31004EABF8 /* RayApplePayDemo */ = {
+			isa = PBXGroup;
+			children = (
+				31FA816E1FF38F31004EABF8 /* AppDelegate.h */,
+				31FA816F1FF38F31004EABF8 /* AppDelegate.m */,
+				31FA81711FF38F31004EABF8 /* ViewController.h */,
+				31FA81721FF38F31004EABF8 /* ViewController.m */,
+				31FA81741FF38F31004EABF8 /* Main.storyboard */,
+				31FA81771FF38F31004EABF8 /* Assets.xcassets */,
+				31FA81791FF38F31004EABF8 /* LaunchScreen.storyboard */,
+				31FA817C1FF38F31004EABF8 /* Info.plist */,
+				31FA817D1FF38F31004EABF8 /* main.m */,
+			);
+			path = RayApplePayDemo;
+			sourceTree = "<group>";
+		};
+		31FA81861FF38F31004EABF8 /* RayApplePayDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				31FA81871FF38F31004EABF8 /* RayApplePayDemoTests.m */,
+				31FA81891FF38F31004EABF8 /* Info.plist */,
+			);
+			path = RayApplePayDemoTests;
+			sourceTree = "<group>";
+		};
+		31FA81911FF38F31004EABF8 /* RayApplePayDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				31FA81921FF38F31004EABF8 /* RayApplePayDemoUITests.m */,
+				31FA81941FF38F31004EABF8 /* Info.plist */,
+			);
+			path = RayApplePayDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		31FA816A1FF38F31004EABF8 /* RayApplePayDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 31FA81971FF38F31004EABF8 /* Build configuration list for PBXNativeTarget "RayApplePayDemo" */;
+			buildPhases = (
+				31FA81671FF38F31004EABF8 /* Sources */,
+				31FA81681FF38F31004EABF8 /* Frameworks */,
+				31FA81691FF38F31004EABF8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RayApplePayDemo;
+			productName = RayApplePayDemo;
+			productReference = 31FA816B1FF38F31004EABF8 /* RayApplePayDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		31FA81821FF38F31004EABF8 /* RayApplePayDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 31FA819A1FF38F31004EABF8 /* Build configuration list for PBXNativeTarget "RayApplePayDemoTests" */;
+			buildPhases = (
+				31FA817F1FF38F31004EABF8 /* Sources */,
+				31FA81801FF38F31004EABF8 /* Frameworks */,
+				31FA81811FF38F31004EABF8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				31FA81851FF38F31004EABF8 /* PBXTargetDependency */,
+			);
+			name = RayApplePayDemoTests;
+			productName = RayApplePayDemoTests;
+			productReference = 31FA81831FF38F31004EABF8 /* RayApplePayDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		31FA818D1FF38F31004EABF8 /* RayApplePayDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 31FA819D1FF38F31004EABF8 /* Build configuration list for PBXNativeTarget "RayApplePayDemoUITests" */;
+			buildPhases = (
+				31FA818A1FF38F31004EABF8 /* Sources */,
+				31FA818B1FF38F31004EABF8 /* Frameworks */,
+				31FA818C1FF38F31004EABF8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				31FA81901FF38F31004EABF8 /* PBXTargetDependency */,
+			);
+			name = RayApplePayDemoUITests;
+			productName = RayApplePayDemoUITests;
+			productReference = 31FA818E1FF38F31004EABF8 /* RayApplePayDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		31FA81631FF38F31004EABF8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = Ray;
+				TargetAttributes = {
+					31FA816A1FF38F31004EABF8 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					31FA81821FF38F31004EABF8 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 31FA816A1FF38F31004EABF8;
+					};
+					31FA818D1FF38F31004EABF8 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 31FA816A1FF38F31004EABF8;
+					};
+				};
+			};
+			buildConfigurationList = 31FA81661FF38F31004EABF8 /* Build configuration list for PBXProject "RayApplePayDemo" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 31FA81621FF38F31004EABF8;
+			productRefGroup = 31FA816C1FF38F31004EABF8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				31FA816A1FF38F31004EABF8 /* RayApplePayDemo */,
+				31FA81821FF38F31004EABF8 /* RayApplePayDemoTests */,
+				31FA818D1FF38F31004EABF8 /* RayApplePayDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		31FA81691FF38F31004EABF8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31FA817B1FF38F31004EABF8 /* LaunchScreen.storyboard in Resources */,
+				31FA81781FF38F31004EABF8 /* Assets.xcassets in Resources */,
+				31FA81761FF38F31004EABF8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31FA81811FF38F31004EABF8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31FA818C1FF38F31004EABF8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		31FA81671FF38F31004EABF8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31FA81731FF38F31004EABF8 /* ViewController.m in Sources */,
+				31FA817E1FF38F31004EABF8 /* main.m in Sources */,
+				31FA81701FF38F31004EABF8 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31FA817F1FF38F31004EABF8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31FA81881FF38F31004EABF8 /* RayApplePayDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31FA818A1FF38F31004EABF8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31FA81931FF38F31004EABF8 /* RayApplePayDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		31FA81851FF38F31004EABF8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 31FA816A1FF38F31004EABF8 /* RayApplePayDemo */;
+			targetProxy = 31FA81841FF38F31004EABF8 /* PBXContainerItemProxy */;
+		};
+		31FA81901FF38F31004EABF8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 31FA816A1FF38F31004EABF8 /* RayApplePayDemo */;
+			targetProxy = 31FA818F1FF38F31004EABF8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		31FA81741FF38F31004EABF8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				31FA81751FF38F31004EABF8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		31FA81791FF38F31004EABF8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				31FA817A1FF38F31004EABF8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		31FA81951FF38F31004EABF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		31FA81961FF38F31004EABF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		31FA81981FF38F31004EABF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 36D935N6NX;
+				INFOPLIST_FILE = RayApplePayDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.haodai.RayApplePayDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		31FA81991FF38F31004EABF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 36D935N6NX;
+				INFOPLIST_FILE = RayApplePayDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.haodai.RayApplePayDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		31FA819B1FF38F31004EABF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 36D935N6NX;
+				INFOPLIST_FILE = RayApplePayDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.haodai.RayApplePayDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RayApplePayDemo.app/RayApplePayDemo";
+			};
+			name = Debug;
+		};
+		31FA819C1FF38F31004EABF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 36D935N6NX;
+				INFOPLIST_FILE = RayApplePayDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.haodai.RayApplePayDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RayApplePayDemo.app/RayApplePayDemo";
+			};
+			name = Release;
+		};
+		31FA819E1FF38F31004EABF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 36D935N6NX;
+				INFOPLIST_FILE = RayApplePayDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.haodai.RayApplePayDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RayApplePayDemo;
+			};
+			name = Debug;
+		};
+		31FA819F1FF38F31004EABF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 36D935N6NX;
+				INFOPLIST_FILE = RayApplePayDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.haodai.RayApplePayDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RayApplePayDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		31FA81661FF38F31004EABF8 /* Build configuration list for PBXProject "RayApplePayDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31FA81951FF38F31004EABF8 /* Debug */,
+				31FA81961FF38F31004EABF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		31FA81971FF38F31004EABF8 /* Build configuration list for PBXNativeTarget "RayApplePayDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31FA81981FF38F31004EABF8 /* Debug */,
+				31FA81991FF38F31004EABF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		31FA819A1FF38F31004EABF8 /* Build configuration list for PBXNativeTarget "RayApplePayDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31FA819B1FF38F31004EABF8 /* Debug */,
+				31FA819C1FF38F31004EABF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		31FA819D1FF38F31004EABF8 /* Build configuration list for PBXNativeTarget "RayApplePayDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31FA819E1FF38F31004EABF8 /* Debug */,
+				31FA819F1FF38F31004EABF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 31FA81631FF38F31004EABF8 /* Project object */;
+}
