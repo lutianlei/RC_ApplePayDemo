@@ -15,6 +15,8 @@
 		31FA817E1FF38F31004EABF8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 31FA817D1FF38F31004EABF8 /* main.m */; };
 		31FA81881FF38F31004EABF8 /* RayApplePayDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 31FA81871FF38F31004EABF8 /* RayApplePayDemoTests.m */; };
 		31FA81931FF38F31004EABF8 /* RayApplePayDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 31FA81921FF38F31004EABF8 /* RayApplePayDemoUITests.m */; };
+		31FA81A31FF396DC004EABF8 /* ApplePayBTN_64pt__whiteLine_textLogo_@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 31FA81A11FF396DC004EABF8 /* ApplePayBTN_64pt__whiteLine_textLogo_@2x.png */; };
+		31FA81A41FF396DC004EABF8 /* ApplePayBTN_64pt__whiteLine_textLogo_@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 31FA81A21FF396DC004EABF8 /* ApplePayBTN_64pt__whiteLine_textLogo_@3x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,9 @@
 		31FA818E1FF38F31004EABF8 /* RayApplePayDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RayApplePayDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		31FA81921FF38F31004EABF8 /* RayApplePayDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RayApplePayDemoUITests.m; sourceTree = "<group>"; };
 		31FA81941FF38F31004EABF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		31FA81A01FF38F6D004EABF8 /* RayApplePayDemo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = RayApplePayDemo.entitlements; sourceTree = "<group>"; };
+		31FA81A11FF396DC004EABF8 /* ApplePayBTN_64pt__whiteLine_textLogo_@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ApplePayBTN_64pt__whiteLine_textLogo_@2x.png"; sourceTree = "<group>"; };
+		31FA81A21FF396DC004EABF8 /* ApplePayBTN_64pt__whiteLine_textLogo_@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ApplePayBTN_64pt__whiteLine_textLogo_@3x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,12 +106,15 @@
 		31FA816D1FF38F31004EABF8 /* RayApplePayDemo */ = {
 			isa = PBXGroup;
 			children = (
+				31FA81A01FF38F6D004EABF8 /* RayApplePayDemo.entitlements */,
 				31FA816E1FF38F31004EABF8 /* AppDelegate.h */,
 				31FA816F1FF38F31004EABF8 /* AppDelegate.m */,
 				31FA81711FF38F31004EABF8 /* ViewController.h */,
 				31FA81721FF38F31004EABF8 /* ViewController.m */,
 				31FA81741FF38F31004EABF8 /* Main.storyboard */,
 				31FA81771FF38F31004EABF8 /* Assets.xcassets */,
+				31FA81A11FF396DC004EABF8 /* ApplePayBTN_64pt__whiteLine_textLogo_@2x.png */,
+				31FA81A21FF396DC004EABF8 /* ApplePayBTN_64pt__whiteLine_textLogo_@3x.png */,
 				31FA81791FF38F31004EABF8 /* LaunchScreen.storyboard */,
 				31FA817C1FF38F31004EABF8 /* Info.plist */,
 				31FA817D1FF38F31004EABF8 /* main.m */,
@@ -199,7 +207,12 @@
 				TargetAttributes = {
 					31FA816A1FF38F31004EABF8 = {
 						CreatedOnToolsVersion = 9.2;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
+						SystemCapabilities = {
+							com.apple.ApplePay = {
+								enabled = 1;
+							};
+						};
 					};
 					31FA81821FF38F31004EABF8 = {
 						CreatedOnToolsVersion = 9.2;
@@ -239,8 +252,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				31FA817B1FF38F31004EABF8 /* LaunchScreen.storyboard in Resources */,
+				31FA81A31FF396DC004EABF8 /* ApplePayBTN_64pt__whiteLine_textLogo_@2x.png in Resources */,
 				31FA81781FF38F31004EABF8 /* Assets.xcassets in Resources */,
 				31FA81761FF38F31004EABF8 /* Main.storyboard in Resources */,
+				31FA81A41FF396DC004EABF8 /* ApplePayBTN_64pt__whiteLine_textLogo_@3x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -430,12 +445,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 36D935N6NX;
+				CODE_SIGN_ENTITLEMENTS = RayApplePayDemo/RayApplePayDemo.entitlements;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = LL8F85Z68Y;
 				INFOPLIST_FILE = RayApplePayDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.haodai.RayApplePayDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "208fad1c-1e8b-453f-be53-8ffae544e0e4";
+				PROVISIONING_PROFILE_SPECIFIER = RayApplePayTestDev;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -444,12 +463,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 36D935N6NX;
+				CODE_SIGN_ENTITLEMENTS = RayApplePayDemo/RayApplePayDemo.entitlements;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = LL8F85Z68Y;
 				INFOPLIST_FILE = RayApplePayDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.haodai.RayApplePayDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "0604ab89-9e0a-4e07-8960-694eb3f56d53";
+				PROVISIONING_PROFILE_SPECIFIER = HDCommonDev;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
